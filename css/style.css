@@ -1,0 +1,90 @@
+
+
+.hslider {
+    height: 70vh;
+}
+
+.cardbg {
+    background: rgb(205, 243, 143);
+    text-align: center;
+}
+
+.cardbox {
+
+    height: 60vh;
+    width: 24.45vw;
+    background-color: aqua;
+    float: left;
+    margin: 0;
+}
+
+.cardbox1 {
+
+    height: 60vh;
+    width: 24.45vw;
+    background-color: rgb(57, 207, 65);
+    float: left;
+
+}
+
+.textanimation {
+    position: absolute;
+    right: 15%;
+    bottom: 1.25rem;
+    left: 15%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: rgb(90, 65, 231);
+    text-align: center
+}
+
+.fadeeffect {
+    animation-name: fadeslide;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+}
+
+@keyframes fadeslide {
+    0% {
+        opacity: 0;
+    }
+
+    25% {
+        opacity: .25;
+    }
+
+    50% {
+        opacity: .50;
+    }
+
+    75% {
+        opacity: .75;
+    }
+
+    100% {
+        opacity: 1;
+    }
+
+    from {
+        font-size: 0em;
+    }
+
+    to {
+        font-size: 1em;
+    }
+   
+}
+
+.h2font {
+    font-size: 1.25em;
+    font-weight: bold;
+}
+
+.pfont {
+    font-size: 1em;
+}
+.footer1{
+  background-color:black;
+  color:aliceblue;
+  padding: 5px;
+}
